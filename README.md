@@ -113,7 +113,7 @@ npm run preview
 - Update quantities
 - Remove items
 - Order summary with subtotal, tax, and shipping
-- Free shipping on orders over $50
+- Free shipping on orders over ₹4,150
 
 ### Checkout
 - Shipping information form

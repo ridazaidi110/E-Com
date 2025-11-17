@@ -96,7 +96,7 @@ const Home = () => {
             >
               <div className="text-5xl mb-4">🚚</div>
               <h3 className="font-bold text-xl mb-2 text-gray-800">Free Shipping</h3>
-              <p className="text-gray-600">On orders over $50</p>
+              <p className="text-gray-600">On orders over ₹4,150</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}

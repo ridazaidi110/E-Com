@@ -13,7 +13,7 @@ const Cart = () => {
 
   const subtotal = getCartTotal()
   const tax = subtotal * 0.1
-  const shipping = subtotal > 50 ? 0 : 5.99
+  const shipping = subtotal > 4150 ? 0 : 497
   const total = subtotal + tax + shipping
 
   if (cart.length === 0) {
@@ -112,11 +112,11 @@ const Cart = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-xl font-bold text-primary">
-                        ${(item.price * item.quantity).toFixed(2)}
+                        ₹{(item.price * item.quantity).toFixed(2)}
                       </p>
                       {item.quantity > 1 && (
                         <p className="text-sm text-gray-500">
-                          ${item.price.toFixed(2)} each
+                          ₹{item.price.toFixed(2)} each
                         </p>
                       )}
                     </div>
@@ -154,11 +154,11 @@ const Cart = () => {
               <div className="space-y-3 mb-4">
                 <div className="flex justify-between text-gray-600">
                   <span>Subtotal ({cart.reduce((sum, item) => sum + item.quantity, 0)} items):</span>
-                  <span className="font-semibold">${subtotal.toFixed(2)}</span>
+                  <span className="font-semibold">₹{subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-gray-600">
                   <span>Tax:</span>
-                  <span className="font-semibold">${tax.toFixed(2)}</span>
+                  <span className="font-semibold">₹{tax.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-gray-600">
                   <span>Shipping:</span>
@@ -166,20 +166,20 @@ const Cart = () => {
                     {shipping === 0 ? (
                       <span className="text-green-600">Free</span>
                     ) : (
-                      `$${shipping.toFixed(2)}`
+                      `₹${shipping.toFixed(2)}`
                     )}
                   </span>
                 </div>
-                {subtotal < 50 && (
+                {subtotal < 4150 && (
                   <p className="text-sm text-green-600 font-semibold">
-                    Add ${(50 - subtotal).toFixed(2)} more for free shipping!
+                    Add ₹{(4150 - subtotal).toFixed(2)} more for free shipping!
                   </p>
                 )}
               </div>
               <div className="border-t border-gray-300 pt-4 mb-4">
                 <div className="flex justify-between text-2xl font-bold text-gray-800">
                   <span>Total:</span>
-                  <span className="text-primary">${total.toFixed(2)}</span>
+                  <span className="text-primary">₹{total.toFixed(2)}</span>
                 </div>
               </div>
               <Link to="/checkout">

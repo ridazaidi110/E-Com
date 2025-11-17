@@ -96,7 +96,7 @@ const SidebarFilters = ({
             <h4 className="font-semibold text-gray-700 mb-2">Price Range</h4>
             <div className="space-y-2">
               <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-600">$</span>
+                <span className="text-sm text-gray-600">₹</span>
                 <input
                   type="number"
                   placeholder="Min"
@@ -111,7 +111,7 @@ const SidebarFilters = ({
                 />
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-600">$</span>
+                <span className="text-sm text-gray-600">₹</span>
                 <input
                   type="number"
                   placeholder="Max"

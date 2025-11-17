@@ -23,7 +23,7 @@ const Checkout = () => {
 
   const subtotal = getCartTotal()
   const tax = subtotal * 0.1
-  const shipping = subtotal > 50 ? 0 : 5.99
+  const shipping = subtotal > 4150 ? 0 : 497
   const total = subtotal + tax + shipping
 
   const handleChange = (e) => {
@@ -274,7 +274,7 @@ const Checkout = () => {
                       {item.name} x{item.quantity}
                     </span>
                     <span className="text-gray-800 font-semibold">
-                      ${(item.price * item.quantity).toFixed(2)}
+                      ₹{(item.price * item.quantity).toFixed(2)}
                     </span>
                   </div>
                 ))}
@@ -282,11 +282,11 @@ const Checkout = () => {
               <div className="border-t border-gray-300 pt-4 space-y-2 mb-4">
                 <div className="flex justify-between text-gray-600">
                   <span>Subtotal:</span>
-                  <span className="font-semibold">${subtotal.toFixed(2)}</span>
+                  <span className="font-semibold">₹{subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-gray-600">
                   <span>Tax:</span>
-                  <span className="font-semibold">${tax.toFixed(2)}</span>
+                  <span className="font-semibold">₹{tax.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-gray-600">
                   <span>Shipping:</span>
@@ -294,7 +294,7 @@ const Checkout = () => {
                     {shipping === 0 ? (
                       <span className="text-green-600">Free</span>
                     ) : (
-                      `$${shipping.toFixed(2)}`
+                      `₹${shipping.toFixed(2)}`
                     )}
                   </span>
                 </div>
@@ -302,7 +302,7 @@ const Checkout = () => {
               <div className="border-t border-gray-300 pt-4 mb-4">
                 <div className="flex justify-between text-2xl font-bold text-gray-800">
                   <span>Total:</span>
-                  <span className="text-primary">${total.toFixed(2)}</span>
+                  <span className="text-primary">₹{total.toFixed(2)}</span>
                 </div>
               </div>
               <motion.button

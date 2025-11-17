@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Classic White T-Shirt",
-    "price": 29.99,
-    "originalPrice": 39.99,
+    "price": 2489.17,
+    "originalPrice": 3319.17,
     "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
@@ -18,14 +18,24 @@
     "description": "Premium cotton t-shirt with comfortable fit. Perfect for everyday wear. Made from 100% organic cotton.",
     "inStock": true,
     "brand": "FashionHub",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Black", "Navy", "Gray"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Navy",
+      "Gray"
+    ]
   },
   {
     "id": 2,
     "name": "Floral Summer Dress",
-    "price": 59.99,
-    "originalPrice": 79.99,
+    "price": 4979.17,
+    "originalPrice": 6639.17,
     "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=800&fit=crop",
@@ -40,14 +50,24 @@
     "description": "Beautiful floral print summer dress with flowy fabric. Perfect for warm weather occasions.",
     "inStock": true,
     "brand": "Elegance",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Pink", "Blue", "Yellow", "White"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Pink",
+      "Blue",
+      "Yellow",
+      "White"
+    ]
   },
   {
     "id": 3,
     "name": "Denim Jacket",
-    "price": 79.99,
-    "originalPrice": 99.99,
+    "price": 6639.17,
+    "originalPrice": 8299.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -62,14 +82,23 @@
     "description": "Classic denim jacket with modern fit. Versatile piece that goes with everything.",
     "inStock": true,
     "brand": "DenimCo",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Blue", "Black", "Light Blue"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blue",
+      "Black",
+      "Light Blue"
+    ]
   },
   {
     "id": 4,
     "name": "Kids Playful T-Shirt",
-    "price": 19.99,
-    "originalPrice": 24.99,
+    "price": 1659.17,
+    "originalPrice": 2074.17,
     "image": "https://images.unsplash.com/photo-1503341338985-b047bf617d2f?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1503341338985-b047bf617d2f?w=800&h=800&fit=crop",
@@ -83,14 +112,23 @@
     "description": "Fun and colorful t-shirt for kids. Made with soft, comfortable fabric perfect for playtime.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Red", "Blue", "Green", "Yellow"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ]
   },
   {
     "id": 5,
     "name": "Elegant Blazer",
-    "price": 129.99,
-    "originalPrice": 159.99,
+    "price": 10789.17,
+    "originalPrice": 13279.17,
     "image": "https://images.unsplash.com/photo-1594938291221-94f988ad5e0a?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1594938291221-94f988ad5e0a?w=800&h=800&fit=crop",
@@ -105,14 +143,24 @@
     "description": "Professional blazer perfect for office or formal occasions. Tailored fit with premium fabric.",
     "inStock": true,
     "brand": "Professional",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Navy", "Gray", "Beige"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Gray",
+      "Beige"
+    ]
   },
   {
     "id": 6,
     "name": "Casual Jeans",
-    "price": 49.99,
-    "originalPrice": 69.99,
+    "price": 4149.17,
+    "originalPrice": 5809.17,
     "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=800&fit=crop",
@@ -127,14 +175,23 @@
     "description": "Comfortable casual jeans with stretch fabric. Perfect fit for everyday wear.",
     "inStock": true,
     "brand": "DenimCo",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Blue", "Black", "Light Blue"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blue",
+      "Black",
+      "Light Blue"
+    ]
   },
   {
     "id": 7,
     "name": "Summer Skirt",
-    "price": 39.99,
-    "originalPrice": 49.99,
+    "price": 3319.17,
+    "originalPrice": 4149.17,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=800&fit=crop",
@@ -149,14 +206,24 @@
     "description": "Light and airy summer skirt with beautiful patterns. Perfect for warm weather.",
     "inStock": true,
     "brand": "SummerStyle",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Pink", "Blue", "Floral"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Pink",
+      "Blue",
+      "Floral"
+    ]
   },
   {
     "id": 8,
     "name": "Kids Denim Shorts",
-    "price": 24.99,
-    "originalPrice": 29.99,
+    "price": 2074.17,
+    "originalPrice": 2489.17,
     "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
@@ -170,14 +237,22 @@
     "description": "Durable denim shorts for active kids. Comfortable and stylish for playtime.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Blue", "Light Blue", "Black"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Blue",
+      "Light Blue",
+      "Black"
+    ]
   },
   {
     "id": 9,
     "name": "Hooded Sweatshirt",
-    "price": 64.99,
-    "originalPrice": 84.99,
+    "price": 5394.17,
+    "originalPrice": 7054.17,
     "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop",
@@ -192,14 +267,24 @@
     "description": "Cozy hooded sweatshirt perfect for casual wear. Soft fabric with comfortable fit.",
     "inStock": true,
     "brand": "ComfortWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Gray", "Black", "Navy", "White"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gray",
+      "Black",
+      "Navy",
+      "White"
+    ]
   },
   {
     "id": 10,
     "name": "Elegant Blouse",
-    "price": 44.99,
-    "originalPrice": 59.99,
+    "price": 3734.17,
+    "originalPrice": 4979.17,
     "image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
@@ -214,14 +299,24 @@
     "description": "Elegant blouse perfect for office or casual occasions. Flattering fit with quality fabric.",
     "inStock": true,
     "brand": "Elegance",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Beige", "Pink", "Blue"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Beige",
+      "Pink",
+      "Blue"
+    ]
   },
   {
     "id": 11,
     "name": "Kids Winter Jacket",
-    "price": 69.99,
-    "originalPrice": 89.99,
+    "price": 5809.17,
+    "originalPrice": 7469.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -235,14 +330,23 @@
     "description": "Warm and cozy winter jacket for kids. Water-resistant and perfect for cold weather.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Red", "Blue", "Pink", "Black"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Red",
+      "Blue",
+      "Pink",
+      "Black"
+    ]
   },
   {
     "id": 12,
     "name": "Chino Pants",
-    "price": 54.99,
-    "originalPrice": 74.99,
+    "price": 4564.17,
+    "originalPrice": 6224.17,
     "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&h=800&fit=crop",
@@ -257,14 +361,24 @@
     "description": "Classic chino pants with modern fit. Versatile for both casual and semi-formal occasions.",
     "inStock": true,
     "brand": "ClassicWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Khaki", "Navy", "Gray", "Beige"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Khaki",
+      "Navy",
+      "Gray",
+      "Beige"
+    ]
   },
   {
     "id": 13,
     "name": "Maxi Dress",
-    "price": 69.99,
-    "originalPrice": 89.99,
+    "price": 5809.17,
+    "originalPrice": 7469.17,
     "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&h=800&fit=crop",
@@ -279,14 +393,24 @@
     "description": "Beautiful maxi dress perfect for special occasions. Flowing fabric with elegant design.",
     "inStock": true,
     "brand": "Elegance",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Navy", "Red", "Floral"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Red",
+      "Floral"
+    ]
   },
   {
     "id": 14,
     "name": "Kids Sneakers",
-    "price": 39.99,
-    "originalPrice": 49.99,
+    "price": 3319.17,
+    "originalPrice": 4149.17,
     "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&h=800&fit=crop",
@@ -301,14 +425,23 @@
     "description": "Comfortable sneakers for active kids. Durable and stylish design.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["White", "Black", "Blue", "Pink"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Blue",
+      "Pink"
+    ]
   },
   {
     "id": 15,
     "name": "Polo Shirt",
-    "price": 34.99,
-    "originalPrice": 44.99,
+    "price": 2904.17,
+    "originalPrice": 3734.17,
     "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
@@ -323,14 +456,24 @@
     "description": "Classic polo shirt with modern fit. Perfect for casual and semi-formal occasions.",
     "inStock": true,
     "brand": "ClassicWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Navy", "Gray", "Black"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Navy",
+      "Gray",
+      "Black"
+    ]
   },
   {
     "id": 16,
     "name": "Cardigan Sweater",
-    "price": 59.99,
-    "originalPrice": 79.99,
+    "price": 4979.17,
+    "originalPrice": 6639.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -345,14 +488,24 @@
     "description": "Cozy cardigan sweater perfect for layering. Soft and comfortable fabric.",
     "inStock": true,
     "brand": "ComfortWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Beige", "Gray", "Pink", "Navy"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Beige",
+      "Gray",
+      "Pink",
+      "Navy"
+    ]
   },
   {
     "id": 17,
     "name": "Kids Leggings",
-    "price": 19.99,
-    "originalPrice": 24.99,
+    "price": 1659.17,
+    "originalPrice": 2074.17,
     "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
@@ -366,14 +519,23 @@
     "description": "Comfortable leggings for active kids. Stretchy fabric perfect for playtime.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Black", "Pink", "Purple", "Blue"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Black",
+      "Pink",
+      "Purple",
+      "Blue"
+    ]
   },
   {
     "id": 18,
     "name": "Leather Jacket",
-    "price": 199.99,
-    "originalPrice": 249.99,
+    "price": 16599.17,
+    "originalPrice": 20749.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -388,14 +550,22 @@
     "description": "Premium leather jacket with classic design. Timeless piece for your wardrobe.",
     "inStock": true,
     "brand": "PremiumLeather",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Brown"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Brown"
+    ]
   },
   {
     "id": 19,
     "name": "Wrap Dress",
-    "price": 54.99,
-    "originalPrice": 69.99,
+    "price": 4564.17,
+    "originalPrice": 5809.17,
     "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=800&fit=crop",
@@ -410,14 +580,24 @@
     "description": "Flattering wrap dress that suits all body types. Perfect for any occasion.",
     "inStock": true,
     "brand": "Elegance",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Navy", "Red", "Floral"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Red",
+      "Floral"
+    ]
   },
   {
     "id": 20,
     "name": "Kids Hoodie",
-    "price": 34.99,
-    "originalPrice": 44.99,
+    "price": 2904.17,
+    "originalPrice": 3734.17,
     "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=800&fit=crop",
@@ -431,14 +611,23 @@
     "description": "Warm and cozy hoodie for kids. Perfect for cool weather with fun designs.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Gray", "Blue", "Pink", "Red"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Gray",
+      "Blue",
+      "Pink",
+      "Red"
+    ]
   },
   {
     "id": 21,
     "name": "Designer Handbag",
-    "price": 89.99,
-    "originalPrice": 119.99,
+    "price": 7469.17,
+    "originalPrice": 9959.17,
     "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&h=800&fit=crop",
@@ -454,13 +643,18 @@
     "inStock": true,
     "brand": "LuxuryBags",
     "sizes": [],
-    "colors": ["Black", "Brown", "Beige", "Navy"]
+    "colors": [
+      "Black",
+      "Brown",
+      "Beige",
+      "Navy"
+    ]
   },
   {
     "id": 22,
     "name": "Fashion Sunglasses",
-    "price": 49.99,
-    "originalPrice": 69.99,
+    "price": 4149.17,
+    "originalPrice": 5809.17,
     "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&h=800&fit=crop",
@@ -476,13 +670,18 @@
     "inStock": true,
     "brand": "SunStyle",
     "sizes": [],
-    "colors": ["Black", "Brown", "Tortoise", "Gold"]
+    "colors": [
+      "Black",
+      "Brown",
+      "Tortoise",
+      "Gold"
+    ]
   },
   {
     "id": 23,
     "name": "Leather Watch",
-    "price": 129.99,
-    "originalPrice": 159.99,
+    "price": 10789.17,
+    "originalPrice": 13279.17,
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&h=800&fit=crop",
@@ -498,13 +697,17 @@
     "inStock": true,
     "brand": "TimeClassic",
     "sizes": [],
-    "colors": ["Black", "Brown", "Navy"]
+    "colors": [
+      "Black",
+      "Brown",
+      "Navy"
+    ]
   },
   {
     "id": 24,
     "name": "Silver Necklace",
-    "price": 79.99,
-    "originalPrice": 99.99,
+    "price": 6639.17,
+    "originalPrice": 8299.17,
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
@@ -520,13 +723,17 @@
     "inStock": true,
     "brand": "JewelryCo",
     "sizes": [],
-    "colors": ["Silver", "Gold", "Rose Gold"]
+    "colors": [
+      "Silver",
+      "Gold",
+      "Rose Gold"
+    ]
   },
   {
     "id": 25,
     "name": "Crossbody Bag",
-    "price": 59.99,
-    "originalPrice": 79.99,
+    "price": 4979.17,
+    "originalPrice": 6639.17,
     "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&h=800&fit=crop",
@@ -542,13 +749,18 @@
     "inStock": true,
     "brand": "BagStyle",
     "sizes": [],
-    "colors": ["Black", "Brown", "Pink", "Navy"]
+    "colors": [
+      "Black",
+      "Brown",
+      "Pink",
+      "Navy"
+    ]
   },
   {
     "id": 26,
     "name": "Fashion Belt",
-    "price": 39.99,
-    "originalPrice": 54.99,
+    "price": 3319.17,
+    "originalPrice": 4564.17,
     "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&h=800&fit=crop",
@@ -563,14 +775,23 @@
     "description": "Stylish leather belt with classic buckle. Versatile accessory for any outfit.",
     "inStock": true,
     "brand": "BeltCo",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Brown", "Tan"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Brown",
+      "Tan"
+    ]
   },
   {
     "id": 27,
     "name": "Earrings Set",
-    "price": 34.99,
-    "originalPrice": 49.99,
+    "price": 2904.17,
+    "originalPrice": 4149.17,
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
@@ -586,13 +807,17 @@
     "inStock": true,
     "brand": "JewelryCo",
     "sizes": [],
-    "colors": ["Silver", "Gold", "Rose Gold"]
+    "colors": [
+      "Silver",
+      "Gold",
+      "Rose Gold"
+    ]
   },
   {
     "id": 28,
     "name": "Backpack",
-    "price": 69.99,
-    "originalPrice": 89.99,
+    "price": 5809.17,
+    "originalPrice": 7469.17,
     "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop",
@@ -608,13 +833,18 @@
     "inStock": true,
     "brand": "BagStyle",
     "sizes": [],
-    "colors": ["Black", "Navy", "Gray", "Pink"]
+    "colors": [
+      "Black",
+      "Navy",
+      "Gray",
+      "Pink"
+    ]
   },
   {
     "id": 29,
     "name": "Vintage Denim Jeans",
-    "price": 64.99,
-    "originalPrice": 84.99,
+    "price": 5394.17,
+    "originalPrice": 7054.17,
     "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&h=800&fit=crop",
@@ -629,14 +859,24 @@
     "description": "Vintage-style denim jeans with perfect fit. Comfortable and stylish for everyday wear.",
     "inStock": true,
     "brand": "DenimCo",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Blue", "Black", "Light Blue", "White"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blue",
+      "Black",
+      "Light Blue",
+      "White"
+    ]
   },
   {
     "id": 30,
     "name": "Casual Button Shirt",
-    "price": 44.99,
-    "originalPrice": 59.99,
+    "price": 3734.17,
+    "originalPrice": 4979.17,
     "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
@@ -651,14 +891,24 @@
     "description": "Classic button-down shirt with modern fit. Perfect for business casual or smart casual looks.",
     "inStock": true,
     "brand": "ClassicWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Blue", "Gray", "Pink"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Blue",
+      "Gray",
+      "Pink"
+    ]
   },
   {
     "id": 31,
     "name": "Midi Dress",
-    "price": 64.99,
-    "originalPrice": 84.99,
+    "price": 5394.17,
+    "originalPrice": 7054.17,
     "image": "https://images.unsplash.com/photo-1566479179817-278d6a0e0b0e?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1566479179817-278d6a0e0b0e?w=800&h=800&fit=crop",
@@ -673,14 +923,24 @@
     "description": "Elegant midi dress perfect for office or evening events. Flattering silhouette with quality fabric.",
     "inStock": true,
     "brand": "Elegance",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Navy", "Red", "Floral"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Red",
+      "Floral"
+    ]
   },
   {
     "id": 32,
     "name": "Kids Denim Jeans",
-    "price": 34.99,
-    "originalPrice": 44.99,
+    "price": 2904.17,
+    "originalPrice": 3734.17,
     "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
@@ -694,14 +954,22 @@
     "description": "Durable denim jeans for active kids. Comfortable fit with stretch fabric for easy movement.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Blue", "Light Blue", "Black"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Blue",
+      "Light Blue",
+      "Black"
+    ]
   },
   {
     "id": 33,
     "name": "Wool Coat",
-    "price": 149.99,
-    "originalPrice": 199.99,
+    "price": 12449.17,
+    "originalPrice": 16599.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -716,14 +984,24 @@
     "description": "Warm wool coat perfect for winter. Classic design with modern fit and premium quality.",
     "inStock": true,
     "brand": "WinterStyle",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Navy", "Beige", "Gray"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Beige",
+      "Gray"
+    ]
   },
   {
     "id": 34,
     "name": "Cargo Shorts",
-    "price": 39.99,
-    "originalPrice": 54.99,
+    "price": 3319.17,
+    "originalPrice": 4564.17,
     "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&h=800&fit=crop",
@@ -737,14 +1015,24 @@
     "description": "Comfortable cargo shorts with multiple pockets. Perfect for casual summer wear.",
     "inStock": true,
     "brand": "CasualWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Khaki", "Navy", "Black", "Gray"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Khaki",
+      "Navy",
+      "Black",
+      "Gray"
+    ]
   },
   {
     "id": 35,
     "name": "Kids Summer Dress",
-    "price": 29.99,
-    "originalPrice": 39.99,
+    "price": 2489.17,
+    "originalPrice": 3319.17,
     "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
@@ -758,14 +1046,23 @@
     "description": "Adorable summer dress for little ones. Lightweight fabric perfect for warm weather.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Pink", "Blue", "Yellow", "Floral"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Pink",
+      "Blue",
+      "Yellow",
+      "Floral"
+    ]
   },
   {
     "id": 36,
     "name": "Trench Coat",
-    "price": 139.99,
-    "originalPrice": 179.99,
+    "price": 11619.17,
+    "originalPrice": 14939.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -780,14 +1077,24 @@
     "description": "Classic trench coat with timeless design. Perfect for spring and fall seasons.",
     "inStock": true,
     "brand": "ClassicStyle",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Beige", "Black", "Navy", "Gray"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Beige",
+      "Black",
+      "Navy",
+      "Gray"
+    ]
   },
   {
     "id": 37,
     "name": "Sports Jacket",
-    "price": 89.99,
-    "originalPrice": 119.99,
+    "price": 7469.17,
+    "originalPrice": 9959.17,
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop",
@@ -801,14 +1108,24 @@
     "description": "Versatile sports jacket perfect for casual wear. Lightweight and comfortable design.",
     "inStock": true,
     "brand": "SportWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Navy", "Black", "Gray", "Green"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Navy",
+      "Black",
+      "Gray",
+      "Green"
+    ]
   },
   {
     "id": 38,
     "name": "Silk Scarf",
-    "price": 49.99,
-    "originalPrice": 69.99,
+    "price": 4149.17,
+    "originalPrice": 5809.17,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=800&fit=crop",
@@ -823,13 +1140,18 @@
     "inStock": true,
     "brand": "LuxuryAccessories",
     "sizes": [],
-    "colors": ["Floral", "Blue", "Pink", "Navy"]
+    "colors": [
+      "Floral",
+      "Blue",
+      "Pink",
+      "Navy"
+    ]
   },
   {
     "id": 39,
     "name": "Crop Top",
-    "price": 24.99,
-    "originalPrice": 34.99,
+    "price": 2074.17,
+    "originalPrice": 2904.17,
     "image": "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1594633313593-bab3825d0caf?w=800&h=800&fit=crop",
@@ -843,14 +1165,24 @@
     "description": "Trendy crop top perfect for summer. Comfortable and stylish for casual outings.",
     "inStock": true,
     "brand": "TrendyWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Black", "Pink", "Blue"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Pink",
+      "Blue"
+    ]
   },
   {
     "id": 40,
     "name": "Baseball Cap",
-    "price": 19.99,
-    "originalPrice": 29.99,
+    "price": 1659.17,
+    "originalPrice": 2489.17,
     "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=800&fit=crop",
@@ -865,13 +1197,18 @@
     "inStock": true,
     "brand": "CapStyle",
     "sizes": [],
-    "colors": ["Black", "Navy", "White", "Gray"]
+    "colors": [
+      "Black",
+      "Navy",
+      "White",
+      "Gray"
+    ]
   },
   {
     "id": 41,
     "name": "Tank Top",
-    "price": 22.99,
-    "originalPrice": 32.99,
+    "price": 1908.17,
+    "originalPrice": 2738.17,
     "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop",
@@ -885,14 +1222,24 @@
     "description": "Comfortable tank top perfect for workouts or casual wear. Breathable fabric.",
     "inStock": true,
     "brand": "ActiveWear",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Black", "Gray", "Navy"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "White",
+      "Black",
+      "Gray",
+      "Navy"
+    ]
   },
   {
     "id": 42,
     "name": "Pleated Skirt",
-    "price": 49.99,
-    "originalPrice": 64.99,
+    "price": 4149.17,
+    "originalPrice": 5394.17,
     "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=800&fit=crop",
@@ -907,14 +1254,24 @@
     "description": "Elegant pleated skirt with flattering fit. Perfect for office or casual occasions.",
     "inStock": true,
     "brand": "Elegance",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Black", "Navy", "Gray", "Beige"]
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Black",
+      "Navy",
+      "Gray",
+      "Beige"
+    ]
   },
   {
     "id": 43,
     "name": "Kids Tracksuit",
-    "price": 44.99,
-    "originalPrice": 59.99,
+    "price": 3734.17,
+    "originalPrice": 4979.17,
     "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
     "images": [
       "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&h=800&fit=crop",
@@ -928,7 +1285,16 @@
     "description": "Comfortable tracksuit set for active kids. Perfect for sports and playtime.",
     "inStock": true,
     "brand": "KidsZone",
-    "sizes": ["S", "M", "L"],
-    "colors": ["Blue", "Red", "Black", "Gray"]
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Blue",
+      "Red",
+      "Black",
+      "Gray"
+    ]
   }
 ]
