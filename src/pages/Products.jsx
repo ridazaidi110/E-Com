@@ -1,13 +1,13 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { useCart } from '../context/CartContext'
+import { useProducts } from '../context/ProductsContext'
 import SidebarFilters from '../components/SidebarFilters'
 import ProductCard from '../components/ProductCard'
 
 const Products = () => {
   const [searchParams] = useSearchParams()
-  const { products } = useCart()
+  const { products } = useProducts()
   const [selectedCategory, setSelectedCategory] = useState('All')
   const [selectedRating, setSelectedRating] = useState(null)
   const [priceRange, setPriceRange] = useState({ min: 0, max: 0 })

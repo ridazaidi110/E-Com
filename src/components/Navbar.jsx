@@ -1,13 +1,10 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { useCart } from '../context/CartContext'
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('')
   const navigate = useNavigate()
-  const { getCartItemsCount } = useCart()
-  const cartCount = getCartItemsCount()
 
   const categories = ['Men', 'Women', 'Kids', 'Accessories']
 
@@ -58,22 +55,6 @@ const Navbar = () => {
 
           {/* Right Side */}
           <div className="flex items-center gap-4">
-            <Link
-              to="/cart"
-              className="relative flex items-center gap-2 bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full hover:shadow-lg transition-all"
-            >
-              <span className="text-lg">🛒</span>
-              <span className="text-sm font-medium hidden sm:inline">Cart</span>
-              {cartCount > 0 && (
-                <motion.span
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}
-                  className="absolute -top-2 -right-2 bg-white text-primary rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold shadow-lg"
-                >
-                  {cartCount}
-                </motion.span>
-              )}
-            </Link>
           </div>
         </div>
 

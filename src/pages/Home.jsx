@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import HeroSlider from '../components/HeroSlider'
 import ProductSlider from '../components/ProductSlider'
-import { useCart } from '../context/CartContext'
+import { useProducts } from '../context/ProductsContext'
 
 const Home = () => {
-  const { products } = useCart()
+  const { products } = useProducts()
 
   const menProducts = products.filter((p) => p.category === 'Men').slice(0, 8)
   const womenProducts = products.filter((p) => p.category === 'Women').slice(0, 8)

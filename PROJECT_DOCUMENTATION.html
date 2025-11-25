@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionHub - Project Documentation</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .page-break { page-break-before: always; }
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #6366f1;
+            border-bottom: 3px solid #6366f1;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #4f46e5;
+            margin-top: 30px;
+            border-left: 4px solid #6366f1;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #14b8a6;
+            margin-top: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            color: #e83e8c;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #6366f1;
+        }
+        .concept-box {
+            background-color: #f0f9ff;
+            border: 1px solid #bae6fd;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .tech-item {
+            background-color: #fef3c7;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #f59e0b;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .highlight {
+            background-color: #fef3c7;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FashionHub - E-Commerce Website Documentation</h1>
+    <p><strong>Project Name:</strong> FashionHub</p>
+    <p><strong>Type:</strong> React-based E-Commerce Product Catalog Website</p>
+    <p><strong>Date:</strong> 2025</p>
+
+    <div class="page-break"></div>
+    <h2>1. Project Overview</h2>
+    <p>FashionHub is a modern, responsive e-commerce website built with React. It serves as a product catalog where users can browse fashion items across different categories (Men, Women, Kids, and Accessories). The website features a clean, user-friendly interface with product filtering, search functionality, and detailed product views.</p>
+    
+    <div class="concept-box">
+        <strong>Key Features:</strong>
+        <ul>
+            <li>Product browsing and catalog display</li>
+            <li>Category-based filtering</li>
+            <li>Search functionality</li>
+            <li>Product detail pages with image galleries</li>
+            <li>Responsive design for all devices</li>
+            <li>Modern UI with smooth animations</li>
+        </ul>
+    </div>
+
+    <h2>2. Technology Stack</h2>
+    <div class="tech-stack">
+        <div class="tech-item">
+            <h3>React 18</h3>
+            <p>JavaScript library for building user interfaces using components</p>
+        </div>
+        <div class="tech-item">
+            <h3>Vite</h3>
+            <p>Fast build tool and development server</p>
+        </div>
+        <div class="tech-item">
+            <h3>React Router</h3>
+            <p>Client-side routing for navigation between pages</p>
+        </div>
+        <div class="tech-item">
+            <h3>TailwindCSS</h3>
+            <p>Utility-first CSS framework for styling</p>
+        </div>
+        <div class="tech-item">
+            <h3>Framer Motion</h3>
+            <p>Animation library for smooth UI transitions</p>
+        </div>
+        <div class="tech-item">
+            <h3>Context API</h3>
+            <p>React's built-in state management for sharing data</p>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+    <h2>3. Core Concepts Explained</h2>
+
+    <h3>3.1 React Components</h3>
+    <p><strong>What is a Component?</strong></p>
+    <p>Components are reusable pieces of code that return JSX (JavaScript XML) to render UI elements. Think of them as building blocks for your website.</p>
+    
+    <div class="concept-box">
+        <strong>Example:</strong>
+        <pre><code>function ProductCard({ product }) {
+  return (
+    &lt;div className="product-card"&gt;
+      &lt;h3&gt;{product.name}&lt;/h3&gt;
+      &lt;p&gt;₹{product.price}&lt;/p&gt;
+    &lt;/div&gt;
+  )
+}</code></pre>
+        <p>This component takes a <code>product</code> as input (props) and displays its name and price.</p>
+    </div>
+
+    <h3>3.2 Props (Properties)</h3>
+    <p>Props are how data flows from parent components to child components. They're like function parameters but for React components.</p>
+    <ul>
+        <li><strong>Parent Component:</strong> <code>&lt;ProductCard product={item} /&gt;</code></li>
+        <li><strong>Child Component:</strong> Receives <code>product</code> as a prop</li>
+    </ul>
+
+    <h3>3.3 State Management</h3>
+    <p>State is data that can change over time. When state changes, React automatically re-renders the component.</p>
+    
+    <div class="concept-box">
+        <strong>useState Hook Example:</strong>
+        <pre><code>const [searchQuery, setSearchQuery] = useState('')
+
+// searchQuery is the current value
+// setSearchQuery is the function to update it
+// '' is the initial value</code></pre>
+    </div>
+
+    <h3>3.4 Context API</h3>
+    <p>Context API allows sharing data across multiple components without passing props through every level (prop drilling).</p>
+    
+    <div class="concept-box">
+        <strong>How it works:</strong>
+        <ol>
+            <li><strong>Create Context:</strong> Define what data to share</li>
+            <li><strong>Provider:</strong> Wrap components that need access to the data</li>
+            <li><strong>Consumer:</strong> Use <code>useContext</code> hook to access the data</li>
+        </ol>
+        <p>In our project, <code>ProductsContext</code> provides product data to all components.</p>
+    </div>
+
+    <h3>3.5 React Router</h3>
+    <p>React Router enables navigation between different pages (routes) in a single-page application without page reloads.</p>
+    
+    <div class="concept-box">
+        <strong>Routes in our project:</strong>
+        <ul>
+            <li><code>/</code> - Home page</li>
+            <li><code>/products</code> - Products listing page</li>
+            <li><code>/product/:id</code> - Individual product detail page</li>
+        </ul>
+        <p>The <code>:id</code> is a dynamic parameter that changes based on which product is clicked.</p>
+    </div>
+
+    <h3>3.6 useEffect Hook</h3>
+    <p>useEffect runs side effects (like API calls, setting up timers) after the component renders.</p>
+    
+    <div class="concept-box">
+        <strong>Example from HeroSlider:</strong>
+        <pre><code>useEffect(() => {
+  const timer = setInterval(() => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length)
+  }, 5000)
+  return () => clearInterval(timer) // Cleanup
+}, [slides.length])</code></pre>
+        <p>This creates a timer that changes slides every 5 seconds. The cleanup function clears the timer when the component unmounts.</p>
+    </div>
+
+    <h3>3.7 useMemo Hook</h3>
+    <p>useMemo memoizes (caches) expensive calculations so they only run when dependencies change.</p>
+    
+    <div class="concept-box">
+        <strong>Example from Products page:</strong>
+        <pre><code>const filteredProducts = useMemo(() => {
+  let filtered = products
+  // Apply filters...
+  return filtered
+}, [products, selectedCategory, searchQuery])</code></pre>
+        <p>This only recalculates filtered products when products, category, or search query changes, not on every render.</p>
+    </div>
+
+    <div class="page-break"></div>
+    <h2>4. Project Structure</h2>
+    
+    <h3>4.1 File Organization</h3>
+    <pre><code>src/
+├── components/          # Reusable UI components
+│   ├── Navbar.jsx      # Navigation bar
+│   ├── Footer.jsx      # Footer component
+│   ├── ProductCard.jsx # Product display card
+│   ├── ProductSlider.jsx # Horizontal product slider
+│   ├── HeroSlider.jsx  # Home page banner slider
+│   └── SidebarFilters.jsx # Filter sidebar
+├── context/
+│   └── ProductsContext.jsx # Global product data provider
+├── pages/              # Page components
+│   ├── Home.jsx        # Home page
+│   ├── Products.jsx    # Products listing page
+│   └── ProductDetails.jsx # Product detail page
+├── products.json       # Product data
+├── App.jsx             # Main app component with routes
+└── main.jsx            # Application entry point</code></pre>
+
+    <h3>4.2 Component Hierarchy</h3>
+    <div class="concept-box">
+        <strong>Component Tree:</strong>
+        <pre><code>App
+├── ProductsProvider (Context)
+│   └── Router
+│       ├── Navbar
+│       ├── Routes
+│       │   ├── Home
+│       │   │   ├── HeroSlider
+│       │   │   └── ProductSlider
+│       │   │       └── ProductCard
+│       │   ├── Products
+│       │   │   ├── SidebarFilters
+│       │   │   └── ProductCard (multiple)
+│       │   └── ProductDetails
+│       │       └── ProductCard (related products)
+│       └── Footer</code></pre>
+    </div>
+
+    <div class="page-break"></div>
+    <h2>5. Key Features Explained</h2>
+
+    <h3>5.1 Product Filtering</h3>
+    <p>The Products page allows filtering by:</p>
+    <ul>
+        <li><strong>Category:</strong> Men, Women, Kids, Accessories</li>
+        <li><strong>Rating:</strong> Filter by minimum star rating</li>
+        <li><strong>Price Range:</strong> Set minimum and maximum price</li>
+        <li><strong>Search:</strong> Search by product name or description</li>
+    </ul>
+    
+    <div class="concept-box">
+        <strong>How filtering works:</strong>
+        <ol>
+            <li>User selects filter options (stored in state)</li>
+            <li><code>useMemo</code> hook calculates filtered products</li>
+            <li>Only products matching all criteria are displayed</li>
+            <li>Component re-renders with filtered results</li>
+        </ol>
+    </div>
+
+    <h3>5.2 Search Functionality</h3>
+    <p>The search bar in the Navbar allows users to search for products:</p>
+    <ul>
+        <li>Search query is stored in state</li>
+        <li>On form submit, navigates to <code>/products?search=query</code></li>
+        <li>Products page reads the search parameter from URL</li>
+        <li>Products are filtered to match the search query</li>
+    </ul>
+
+    <h3>5.3 Product Details Page</h3>
+    <p>When a user clicks on a product:</p>
+    <ol>
+        <li>React Router navigates to <code>/product/:id</code></li>
+        <li><code>useParams</code> hook extracts the product ID from URL</li>
+        <li><code>getProductById</code> function finds the product</li>
+        <li>Product details are displayed with images, description, price</li>
+        <li>Related products from the same category are shown</li>
+    </ol>
+
+    <h3>5.4 Image Gallery</h3>
+    <p>The ProductDetails page features:</p>
+    <ul>
+        <li>Main large image with zoom on hover</li>
+        <li>Thumbnail gallery below for multiple images</li>
+        <li>Clicking thumbnails changes the main image</li>
+        <li>Uses <code>useState</code> to track selected image index</li>
+    </ul>
+
+    <h3>5.5 Responsive Design</h3>
+    <p>TailwindCSS utility classes make the website responsive:</p>
+    <ul>
+        <li><code>md:</code> prefix for medium screens and up</li>
+        <li><code>lg:</code> prefix for large screens</li>
+        <li>Grid layouts adapt from 1 column (mobile) to 4 columns (desktop)</li>
+        <li>Navigation collapses on mobile devices</li>
+    </ul>
+
+    <div class="page-break"></div>
+    <h2>6. Data Flow</h2>
+
+    <h3>6.1 Products Data</h3>
+    <p>Product data is stored in <code>products.json</code> and loaded through <code>ProductsContext</code>:</p>
+    
+    <div class="concept-box">
+        <strong>Data Flow:</strong>
+        <ol>
+            <li><code>products.json</code> contains all product information</li>
+            <li><code>ProductsContext</code> loads and provides this data</li>
+            <li><code>ProductsProvider</code> wraps the app, making data available everywhere</li>
+            <li>Components use <code>useProducts()</code> hook to access products</li>
+            <li>Components can filter, search, and display products</li>
+        </ol>
+    </div>
+
+    <h3>6.2 URL Parameters</h3>
+    <p>URL parameters are used for:</p>
+    <ul>
+        <li><code>?category=Men</code> - Filter by category</li>
+        <li><code>?search=shirt</code> - Search query</li>
+        <li><code>/product/5</code> - Product ID in the path</li>
+    </ul>
+    <p><code>useSearchParams</code> and <code>useParams</code> hooks read these values.</p>
+
+    <div class="page-break"></div>
+    <h2>7. Styling with TailwindCSS</h2>
+
+    <h3>7.1 Utility Classes</h3>
+    <p>TailwindCSS uses utility classes instead of writing custom CSS:</p>
+    
+    <div class="concept-box">
+        <strong>Examples:</strong>
+        <ul>
+            <li><code>bg-white</code> - White background</li>
+            <li><code>text-gray-800</code> - Gray text color</li>
+            <li><code>rounded-lg</code> - Rounded corners</li>
+            <li><code>p-4</code> - Padding of 1rem (16px)</li>
+            <li><code>flex</code> - Display flex</li>
+            <li><code>grid grid-cols-4</code> - CSS Grid with 4 columns</li>
+            <li><code>hover:bg-gray-200</code> - Background on hover</li>
+        </ul>
+    </div>
+
+    <h3>7.2 Custom Colors</h3>
+    <p>The project uses custom colors defined in <code>tailwind.config.js</code>:</p>
+    <ul>
+        <li><strong>primary:</strong> Indigo/Purple (#6366f1)</li>
+        <li><strong>secondary:</strong> Teal (#14b8a6)</li>
+        <li><strong>pastel-pink, pastel-blue, pastel-purple:</strong> Light accent colors</li>
+    </ul>
+
+    <h3>7.3 Animations</h3>
+    <p>Framer Motion provides smooth animations:</p>
+    <ul>
+        <li><code>initial</code> - Starting state</li>
+        <li><code>animate</code> - End state</li>
+        <li><code>transition</code> - Animation timing</li>
+        <li><code>whileHover</code> - Animation on hover</li>
+    </ul>
+
+    <div class="page-break"></div>
+    <h2>8. Common Questions & Answers</h2>
+
+    <h3>Q: What is React?</h3>
+    <p><strong>A:</strong> React is a JavaScript library for building user interfaces. It uses components (reusable pieces of code) to create interactive web pages. Instead of writing HTML directly, you write JSX (which looks like HTML but is actually JavaScript).</p>
+
+    <h3>Q: What is JSX?</h3>
+    <p><strong>A:</strong> JSX (JavaScript XML) is a syntax extension that lets you write HTML-like code in JavaScript. React converts JSX into JavaScript that creates HTML elements.</p>
+    <pre><code>// JSX
+&lt;div className="card"&gt;Hello&lt;/div&gt;
+
+// Converts to JavaScript
+React.createElement('div', { className: 'card' }, 'Hello')</code></pre>
+
+    <h3>Q: What are Hooks?</h3>
+    <p><strong>A:</strong> Hooks are special functions that let you use React features in functional components:</p>
+    <ul>
+        <li><code>useState</code> - Manage component state</li>
+        <li><code>useEffect</code> - Handle side effects</li>
+        <li><code>useContext</code> - Access context data</li>
+        <li><code>useParams</code> - Get URL parameters</li>
+        <li><code>useMemo</code> - Memoize calculations</li>
+    </ul>
+
+    <h3>Q: What is a Single Page Application (SPA)?</h3>
+    <p><strong>A:</strong> An SPA loads once and then updates content dynamically without full page reloads. React Router handles navigation between "pages" (which are actually different components) without refreshing the browser.</p>
+
+    <h3>Q: How does filtering work?</h3>
+    <p><strong>A:</strong> When a user selects a filter:</p>
+    <ol>
+        <li>The selection updates state (e.g., <code>setSelectedCategory('Men')</code>)</li>
+        <li><code>useMemo</code> recalculates which products match the filter</li>
+        <li>React re-renders the component with filtered products</li>
+        <li>Only matching products are displayed</li>
+    </ol>
+
+    <h3>Q: What is Context API used for?</h3>
+    <p><strong>A:</strong> Context API provides a way to share data (like product list) across many components without passing props through every level. It's like a global store that any component can access.</p>
+
+    <h3>Q: How does React Router work?</h3>
+    <p><strong>A:</strong> React Router watches the URL and renders different components based on the path:</p>
+    <ul>
+        <li>URL: <code>/</code> → Renders <code>Home</code> component</li>
+        <li>URL: <code>/products</code> → Renders <code>Products</code> component</li>
+        <li>URL: <code>/product/5</code> → Renders <code>ProductDetails</code> with product ID 5</li>
+    </ul>
+
+    <h3>Q: What is the difference between state and props?</h3>
+    <p><strong>A:</strong></p>
+    <ul>
+        <li><strong>Props:</strong> Data passed from parent to child (read-only)</li>
+        <li><strong>State:</strong> Data managed within a component (can be changed)</li>
+    </ul>
+    <p>Example: A product card receives product data as props, but the selected image index is state.</p>
+
+    <div class="page-break"></div>
+    <h2>9. Development Workflow</h2>
+
+    <h3>9.1 Running the Project</h3>
+    <ol>
+        <li>Install dependencies: <code>npm install</code></li>
+        <li>Start development server: <code>npm run dev</code></li>
+        <li>Open browser to <code>http://localhost:5173</code></li>
+    </ol>
+
+    <h3>9.2 Building for Production</h3>
+    <ol>
+        <li>Build the project: <code>npm run build</code></li>
+        <li>Preview production build: <code>npm run preview</code></li>
+    </ol>
+
+    <h3>9.3 File Changes</h3>
+    <p>Vite's development server has Hot Module Replacement (HMR), meaning changes to files automatically update in the browser without full page reload.</p>
+
+    <div class="page-break"></div>
+    <h2>10. Key Takeaways</h2>
+
+    <div class="concept-box">
+        <h3>Important Concepts to Remember:</h3>
+        <ol>
+            <li><strong>Components:</strong> Reusable UI building blocks</li>
+            <li><strong>Props:</strong> Data passed to components</li>
+            <li><strong>State:</strong> Data that can change and trigger re-renders</li>
+            <li><strong>Hooks:</strong> Functions that add React features to components</li>
+            <li><strong>Context:</strong> Global data sharing without prop drilling</li>
+            <li><strong>Routing:</strong> Navigation between pages in a SPA</li>
+            <li><strong>JSX:</strong> HTML-like syntax in JavaScript</li>
+            <li><strong>Responsive Design:</strong> Website adapts to different screen sizes</li>
+        </ol>
+    </div>
+
+    <h2>11. Project Summary</h2>
+    <p>FashionHub is a modern React-based e-commerce catalog website that demonstrates:</p>
+    <ul>
+        <li>Component-based architecture</li>
+        <li>State management with Context API</li>
+        <li>Client-side routing</li>
+        <li>Data filtering and searching</li>
+        <li>Responsive design principles</li>
+        <li>Modern UI/UX with animations</li>
+    </ul>
+
+    <p>The website allows users to browse fashion products, filter by category/rating/price, search for items, and view detailed product information. All data is managed through React's Context API, and navigation is handled by React Router, creating a smooth single-page application experience.</p>
+
+    <hr>
+    <p style="text-align: center; color: #666; margin-top: 40px;">
+        <strong>FashionHub Project Documentation</strong><br>
+        Generated for Mentor Review - 2025
+    </p>
+</body>
+</html>
+
