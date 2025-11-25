@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 
 const ProductCard = ({ product }) => {
   const discount = product.originalPrice
@@ -9,20 +8,13 @@ const ProductCard = ({ product }) => {
     : 0
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      whileHover={{ y: -8 }}
-      className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 group border border-gray-100"
-    >
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
       <Link to={`/product/${product.id}`}>
         <div className="relative overflow-hidden">
-          <motion.img
+          <img
             src={product.image}
             alt={product.name}
             className="w-full h-64 object-cover"
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5 }}
           />
           {discount > 0 && (
             <span className="absolute top-3 left-3 bg-gradient-to-r from-primary to-secondary text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
@@ -38,7 +30,7 @@ const ProductCard = ({ product }) => {
               <span className="text-xs text-gray-600">{product.rating}</span>
             </div>
           </div>
-          <h3 className="font-semibold text-gray-800 mb-2 line-clamp-2 text-lg group-hover:text-primary transition-colors">
+          <h3 className="font-semibold text-gray-800 mb-2 line-clamp-2 text-lg">
             {product.name}
           </h3>
           <div className="flex items-center justify-between">
@@ -55,7 +47,7 @@ const ProductCard = ({ product }) => {
           </div>
         </div>
       </Link>
-    </motion.div>
+    </div>
   )
 }
 

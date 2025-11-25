@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-pastel-pink via-pastel-blue to-pastel-purple text-gray-800 mt-16">
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-gray-100 text-gray-800 mt-16">
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
@@ -88,23 +87,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h3 className="font-bold text-lg mb-4">Stay Updated</h3>
-            <p className="text-gray-700 text-sm mb-4">
-              Subscribe to our newsletter for the latest fashion trends and exclusive offers.
-            </p>
-            <div className="flex gap-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button className="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors font-semibold">
-                Subscribe
-              </button>
-            </div>
-          </div>
         </div>
 
         <div className="border-t border-gray-300 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">

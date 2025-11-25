@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import { useProducts } from '../context/ProductsContext'
 import ProductCard from '../components/ProductCard'
 
@@ -9,7 +8,6 @@ const ProductDetails = () => {
   const navigate = useNavigate()
   const { getProductById, products } = useProducts()
   const [selectedImage, setSelectedImage] = useState(0)
-  const [isZoomed, setIsZoomed] = useState(false)
 
   const product = getProductById(id)
 
@@ -44,11 +42,7 @@ const ProductDetails = () => {
 
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      className="min-h-screen py-8 bg-gradient-to-br from-pastel-pink/10 via-white to-pastel-blue/10"
-    >
+    <div className="min-h-screen py-8 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* Breadcrumb */}
         <div className="mb-4 text-sm text-gray-600">
@@ -66,12 +60,8 @@ const ProductDetails = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* Image Gallery */}
           <div className="space-y-4">
-            <div
-              className="relative bg-white rounded-2xl overflow-hidden cursor-zoom-in shadow-lg"
-              onMouseEnter={() => setIsZoomed(true)}
-              onMouseLeave={() => setIsZoomed(false)}
-            >
-              <motion.img
+            <div className="relative bg-white rounded-lg overflow-hidden shadow-md">
+              <img
                 src={
                   product.images && product.images.length > 0
                     ? product.images[selectedImage] || product.image
@@ -79,13 +69,9 @@ const ProductDetails = () => {
                 }
                 alt={product.name}
                 className="w-full h-96 object-cover"
-                animate={{
-                  scale: isZoomed ? 1.5 : 1,
-                }}
-                transition={{ duration: 0.3 }}
               />
               {discount > 0 && (
-                <span className="absolute top-4 left-4 bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
+                <span className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded text-sm font-bold">
                   -{discount}% OFF
                 </span>
               )}
@@ -114,7 +100,7 @@ const ProductDetails = () => {
           </div>
 
           {/* Product Info */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <div className="bg-white rounded-lg p-6 shadow-md">
             <div className="flex items-center justify-between mb-4">
               <span className="text-sm text-gray-500 uppercase">{product.category}</span>
               <div className="flex items-center gap-1">
@@ -191,7 +177,7 @@ const ProductDetails = () => {
           </div>
         )}
       </div>
-    </motion.div>
+    </div>
   )
 }
 

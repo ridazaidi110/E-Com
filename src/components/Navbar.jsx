@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { motion } from 'framer-motion'
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('')
@@ -17,19 +16,13 @@ const Navbar = () => {
   }
 
   return (
-    <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      className="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200"
-    >
+    <nav className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4">
         {/* Top Bar */}
         <div className="flex items-center justify-between py-4">
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-gradient-to-br from-primary to-secondary rounded-lg p-2 group-hover:scale-110 transition-transform">
-              <span className="text-2xl">👗</span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          <Link to="/" className="flex items-center gap-2">
+            <span className="text-2xl">👗</span>
+            <span className="text-2xl font-bold text-primary">
               FashionHub
             </span>
           </Link>
@@ -90,7 +83,7 @@ const Navbar = () => {
           ))}
         </div>
       </div>
-    </motion.nav>
+    </nav>
   )
 }
 
